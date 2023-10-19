@@ -6,5 +6,3 @@ cover:
     image: /coup.png
 ---
 https://coup.dotslashdan.com | [Git](https://github.com/Taiters/coup-clone)
-
-{{ "Hugo" | base64Encode }}
