@@ -24,5 +24,8 @@ params:
     - name: github
       url: https://github.com/Taiters
   
+  assets:
+    favicon: /favicon.png
+  
   showShareButtons: true
   showBreadCrumbs: true
