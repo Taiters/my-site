@@ -3,6 +3,8 @@ languageCode: en-gb
 title: Dot Slash Dan
 theme: PaperMod
 
+googleAnalytics: G-ZBZ530Y0M1
+
 params:
   profileMode:
     enabled: true
