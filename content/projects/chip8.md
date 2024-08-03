@@ -4,6 +4,6 @@ summary: A web based CHIP-8 interpreter along with an assembly language and debu
 description: A web based CHIP-8 interpreter along with an assembly language and debugger
 cover:
     image: /chip8.png
-weight: 2
+weight: 3
 ---
 https://chip8.dotslashdan.com | [Git](https://github.com/Taiters/chip8)
