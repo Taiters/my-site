@@ -3,8 +3,6 @@ languageCode: en-gb
 title: Dot Slash Dan
 theme: PaperMod
 
-googleAnalytics: G-ZBZ530Y0M1
-
 params:
   profileMode:
     enabled: true
@@ -25,6 +23,8 @@ params:
       url: https://www.linkedin.com/in/dantaiters/
     - name: github
       url: https://github.com/Taiters
+    - name: mastodon
+      url: https://mastodon.social/@Taiters
   
   assets:
     favicon: /favicon.png
