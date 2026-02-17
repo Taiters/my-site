@@ -1,0 +1,78 @@
+name: Daniel Tait
+title: Software Engineer
+about: Software Engineer with 9+ years experience of designing, developing and running large backend services at scale.
+
+skills:
+  primary:
+    - Python
+    - Java
+    - JavaScript
+  also:
+    - "C#"
+    - Ruby
+    - PHP
+  areas:
+    - Designing and developing scalable products with a focus on high availability, resilience and performance
+    - Empowering other engineers through coaching and mentoring
+    - Designing and running services in a cloud native environment (AWS)
+    - Using CI/CD to confidently deliver changes at a high velocity
+    - Container orchestration platforms (ECS & Kubernetes)
+    - Microservice architecture
+
+experience:
+  - company: TravelPerk
+    location: London
+    role: Senior Software Engineer
+    start: ""
+    end: Present
+    highlights:
+      - TODO
+
+  - company: Meta
+    location: London
+    role: Senior Software Engineer
+    start: August 2021
+    end: Oct 2023
+    highlights:
+      - Worked on core infrastructure as part of a new Customer Support organization with the goal of unifying support offerings across different Meta products
+      - Mentored new joiners through their onboarding journey
+      - Lead development of experimentation functionality within support case flow and taxonomy tools
+      - Championed deeper incident reviews within the organization, using tools such as 5 whys and ishikawa
+      - Delivered major improvements to performance of tooling for support agents, leading to a major overall reduction in resolution times when scaled across 10s of thousands of support staff
+
+  - company: Skyscanner
+    location: Edinburgh
+    role: Senior Software Engineer
+    start: July 2019
+    end: July 2021
+    highlights:
+      - Joined the Platform tribe and quickly ramped up in a new area of the business and set of technologies
+      - Worked with other senior & principal engineers to design different aspects of Skyscanner's Kubernetes platform, specifically focusing on public ingress
+      - Broke designs down into tasks ready to be picked up by junior engineers in the team
+      - Used 5+ years experience at Skyscanner to mentor junior engineers, sharing personal approach to upskilling in new areas
+      - Developed a prod-like Kubernetes environment using Kind for engineers to develop and test public gateway changes locally
+
+  - company: Skyscanner
+    location: Edinburgh
+    role: Software Engineer
+    start: June 2015
+    end: July 2019
+    highlights:
+      - Migrated the Price Alerts system from .NET services running in Skyscanner data centres to a cloud native solution in AWS
+      - Ensured minimal traveller impact via "Do no harm" A/B testing
+      - Re-architected the system to improve cost and efficiency in the new environment
+      - Squad lead and subject matter expert on Skyscanner's traveller communication services
+      - Mentored new/junior engineers in the team to share expertise in the area
+      - Provided technical input to leadership during OKR and roadmap planning
+      - Coordinated with other teams in the business to identify areas for collaboration and ensure the right things were being built
+      - Responsible for designing and driving the integration of internal services with a third party marketing automation product
+
+  - company: Planys Cloud
+    location: Dunfermline
+    role: Software Developer
+    start: June 2013
+    end: May 2015
+    highlights:
+      - Worked on a variety of projects for multiple clients across different industries
+      - Designed and developed a browser based game engine and web platform which allows users to create and share games as well as remix games created by others
+      - Introduced automated testing in multiple projects to more confidently ship updates for clients

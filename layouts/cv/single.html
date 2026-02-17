@@ -1,0 +1,61 @@
+{{ define "main" }}
+{{ $cv := .Site.Data.cv }}
+<article class="cv">
+
+  {{/* Header */}}
+  <header class="cv-header">
+    <h1 class="cv-name">{{ $cv.name }}</h1>
+    <p class="cv-title">{{ $cv.title }}</p>
+    <p class="cv-about">{{ $cv.about }}</p>
+    <div class="social-links">
+      {{ range .Site.Params.socialIcons }}
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ partial "social-icons.html" . }}</a>
+      {{ end }}
+    </div>
+  </header>
+
+  {{/* Skills */}}
+  <section class="cv-section">
+    <h2 class="cv-section-label">Skills</h2>
+    <div class="cv-chips">
+      {{ range $cv.skills.primary }}
+        <span class="cv-chip cv-chip--primary">{{ . }}</span>
+      {{ end }}
+      {{ range $cv.skills.also }}
+        <span class="cv-chip cv-chip--secondary">{{ . }}</span>
+      {{ end }}
+    </div>
+    <ul class="cv-areas">
+      {{ range $cv.skills.areas }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </section>
+
+  {{/* Experience */}}
+  <section class="cv-section">
+    <h2 class="cv-section-label">Experience</h2>
+    {{ range $cv.experience }}
+    <div class="cv-entry">
+      <div class="cv-entry-header">
+        <div class="cv-entry-org">
+          <span class="cv-entry-company">{{ .company }}</span>
+          <span class="cv-entry-location">{{ .location }}</span>
+        </div>
+        <span class="cv-entry-dates">{{ .start }} — {{ .end }}</span>
+      </div>
+      <p class="cv-entry-role">{{ .role }}</p>
+      {{ with .highlights }}
+      <ul class="cv-highlights">
+        {{ range . }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    {{ end }}
+  </section>
+
+
+</article>
+{{ end }}
