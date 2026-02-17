@@ -1,9 +1,9 @@
 ---
 title: Genetic Travelling Salesman
 summary: Using a genetic algorithm to approximate a solution to the Travelling Salesman Problem.
-description: Using a genetic algorithm to approximate a solution to the Travelling Salesman Problem.
-cover:
-    image: /salesman.png
+params:
+  icon: salesman
+  demoUrl: https://salesman.dotslashdan.com
+  sourceUrl: https://github.com/Taiters/rusty-racers
 weight: 1
 ---
-https://salesman.dotslashdan.com

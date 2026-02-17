@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="section-header">
+  <h1>Projects</h1>
+</div>
+<ul class="project-list">
+  {{ range .Pages.ByWeight }}
+  {{ $title := .Title }}
+  <li class="project-item">
+    {{ with .Params.icon }}
+    <div class="project-item-icon">
+      {{ partial "project-icons.html" . }}
+    </div>
+    {{ end }}
+    <div class="project-item-body">
+      <div class="project-item-header">
+        {{ with .Params.demoUrl }}<a class="project-item-title" href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>{{ else }}<span class="project-item-title">{{ $title }}</span>{{ end }}
+        <span class="project-item-links">
+          {{ with .Params.demoUrl }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">View</a>{{ end }}
+          {{ with .Params.sourceUrl }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Source</a>{{ end }}
+        </span>
+      </div>
+      <div class="project-item-summary">{{ .Params.summary }}</div>
+    </div>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

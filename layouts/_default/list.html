@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="section-header">
+  <h1>{{ .Title }}</h1>
+</div>
+<ul class="post-list">
+  {{ range .Pages }}
+  <li>
+    <a href="{{ .RelPermalink }}">
+      {{ with .Params.icon }}
+      <div class="post-item-icon">
+        {{ partial "post-icons.html" . }}
+      </div>
+      {{ end }}
+      <div class="post-item-body">
+        <span class="post-date">{{ .Date.Format "2 Jan 2006" }}</span>
+        <div class="post-title">{{ .Title }}</div>
+        {{ with .Summary }}<div class="post-summary">{{ . }}</div>{{ end }}
+      </div>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="container">
+    {{ if not .IsHome }}
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      {{ if and .IsPage .Section }}
+        <span class="breadcrumb-sep">/</span>
+        <a href="{{ .Section | relURL }}/">{{ .Section | humanize }}</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>{{ .Title }}</span>
+      {{ else if .IsSection }}
+        <span class="breadcrumb-sep">/</span>
+        <span>{{ .Title }}</span>
+      {{ end }}
+    </nav>
+    {{ end }}
+    <nav>
+      <ul class="site-nav">
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

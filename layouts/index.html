@@ -1,0 +1,43 @@
+{{ define "main" }}
+<section class="hero">
+  <h1 class="hero-name">Dan Tait</h1>
+  <p class="hero-bio">{{ .Site.Params.bio }}</p>
+  <div class="social-links">
+    {{ range .Site.Params.socialIcons }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ partial "social-icons.html" . }}</a>
+    {{ end }}
+  </div>
+</section>
+
+{{ $projects := where .Site.RegularPages "Section" "projects" }}
+{{ if $projects }}
+<section class="home-section">
+  <div class="home-section-header">
+    <h2>Projects</h2>
+    <a href="/projects/">View all</a>
+  </div>
+  <ul class="project-list">
+    {{ range ($projects.ByWeight) }}
+    {{ $title := .Title }}
+    <li class="project-item">
+      {{ with .Params.icon }}
+      <div class="project-item-icon">
+        {{ partial "project-icons.html" . }}
+      </div>
+      {{ end }}
+      <div class="project-item-body">
+        <div class="project-item-header">
+          {{ with .Params.demoUrl }}<a class="project-item-title" href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>{{ else }}<span class="project-item-title">{{ $title }}</span>{{ end }}
+          <span class="project-item-links">
+            {{ with .Params.demoUrl }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">View</a>{{ end }}
+            {{ with .Params.sourceUrl }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Source</a>{{ end }}
+          </span>
+        </div>
+        <div class="project-item-summary">{{ .Params.summary }}</div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ end }}

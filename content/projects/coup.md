@@ -1,9 +1,9 @@
 ---
 title: Coup
 summary: An online version of the Coup card game
-description: An online version of the Coup card game
-cover:
-    image: /coup.png
+params:
+  icon: coup
+  demoUrl: https://coup.dotslashdan.com
+  sourceUrl: https://github.com/Taiters/coup-clone
 weight: 4
 ---
-https://coup.dotslashdan.com | [Git](https://github.com/Taiters/coup-clone)

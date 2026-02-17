@@ -1,0 +1,19 @@
+:root {
+  --bg: #F7F5F2;
+  --bg-secondary: #FFFFFF;
+  --text: #1A1A1A;
+  --text-muted: #6B6B6B;
+  --accent: #2B4AFF;
+  --accent-hover: #1A35CC;
+  --accent-warm: #E8590C;
+  --border: #E2DED8;
+  --link: #2B4AFF;
+  --link-hover: #1A35CC;
+  --code-bg: #EDEAE5;
+  --card-bg: #FFFFFF;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --font-heading: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --radius: 6px;
+  --transition: 0.2s ease;
+}

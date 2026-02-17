@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ with .Params.demoUrl }}
+  <link rel="canonical" href="{{ . }}">
+  <meta http-equiv="refresh" content="0; url={{ . }}">
+  {{ else }}
+  <link rel="canonical" href="{{ "/projects/" | absURL }}">
+  <meta http-equiv="refresh" content="0; url={{ "/projects/" | absURL }}">
+  {{ end }}
+</head>
+<body>
+  <p>Redirecting&hellip;</p>
+</body>
+</html>

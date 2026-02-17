@@ -1,9 +1,9 @@
 ---
 title: Breakout
 summary: A (weird) breakout game made with the Godot game engine
-description: A (weird) breakout game made with the Godot game engine
-cover:
-    image: /breakout.png
+params:
+  icon: breakout
+  demoUrl: https://taiters.github.io/breakout
+  sourceUrl: https://github.com/Taiters/breakout
 weight: 5
 ---
-https://taiters.github.io/breakout | [Git](https://github.com/Taiters/breakout)

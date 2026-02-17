@@ -2,9 +2,8 @@
 title: Towers of Hanoi
 date: 2021-09-04
 summary: A surprisingly simple recursive solution
-description: A surprisingly simple recursive solution
-cover:
-    image: https://cdn.hashnode.com/res/hashnode/image/upload/v1630780420836/95uEgsY-8.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
+params:
+  icon: hanoi
 ---
 So there you are, in an interview, palms are sweaty, mum's spaghetti... or you're just brushing up on some algorithms, either way, you've come across a question asking you to solve the Towers of Hanoi problem. What now?
 

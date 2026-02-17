@@ -1,33 +1,28 @@
 baseURL: https://dotslashdan.com/
 languageCode: en-gb
 title: Dot Slash Dan
-theme: PaperMod
 
 params:
-  profileMode:
-    enabled: true
-    title: "Hello!" # optional default will be site title
-    subtitle: I'm Dan, a software engineer based in London.
-    imageUrl: "/me.jpg"
-    imageTitle: "Dan's face"
-    imageWidth: 240
-    imageHeight: 240
-    buttons:
-      - name: Posts
-        url: "/posts"
-      - name: Projects
-        url: "/projects"
+  siteTheme: blueprint
+  bio: "Software engineer in London. I like building things — games, tools, and the occasional interactive experiment."
 
   socialIcons:
-    - name: linkedin
-      url: https://www.linkedin.com/in/dantaiters/
     - name: github
       url: https://github.com/Taiters
+    - name: linkedin
+      url: https://www.linkedin.com/in/dantaiters/
     - name: mastodon
       url: https://mastodon.social/@Taiters
-  
-  assets:
-    favicon: /favicon.png
-  
-  showShareButtons: true
-  showBreadCrumbs: true
+
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 1
+    - name: Projects
+      url: /projects/
+      weight: 2
+
+markup:
+  highlight:
+    noClasses: false
