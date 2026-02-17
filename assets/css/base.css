@@ -688,3 +688,20 @@ pre code {
     margin-bottom: 0.15rem;
   }
 }
+
+.print-only {
+  visibility: hidden;
+  display: none !important;
+}
+
+@media print {
+  .no-print {
+    visibility: hidden;
+    display: none;
+  }
+
+  .print-only {
+    visibility: visible;
+    display: inline-flex !important;
+  }
+}

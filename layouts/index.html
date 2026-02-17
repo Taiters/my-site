@@ -4,7 +4,7 @@
   <p class="hero-bio">{{ .Site.Params.bio }}</p>
   <div class="social-links">
     {{ range .Site.Params.socialIcons }}
-    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ partial "social-icons.html" . }}</a>
+    <a href="{{ .url }}" class="{{ .classNames }}" target="_blank" rel="noopener noreferrer">{{ partial "social-icons.html" . }}</a>
     {{ end }}
   </div>
 </section>
