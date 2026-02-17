@@ -1,56 +1,79 @@
 name: Daniel Tait
-title: Software Engineer
-about: Software Engineer with 9+ years experience of designing, developing and running large backend services at scale.
+title: Staff Software Engineer | Platform & Distributed Systems
+about: >
+  Strategic Engineering Leader with 10+ years of experience architecting and scaling 
+  high-availability distributed systems. Expert in driving technical strategy across 
+  multi-team, international organizations and delivering business-critical infrastructure 
+  at companies like Meta and Skyscanner. Specialist in "force-multiplier" leadership: 
+  spearheading cross-vertical services and fostering high-standard engineering cultures.
 
 skills:
-  primary:
+  Core Ecosystems:
     - Python
+    - JavaScript / TypeScript
+    - Go
+  Distributed Systems:
+    - DynamoDB
+    - SQS / SNS
+    - PostgreSQL
+    - Redis
+  Cloud & Infrastructure:
+    - AWS
+    - Kubernetes & ECS
+    - Terraform & Ansible
+    - Docker
+  Observability & Ops:
+    - Datadog
+    - Prometheus
+    - CI/CD (GitHub Actions, CircleCI)
+  Prior Proficiency:
     - Java
-    - JavaScript
-  also:
-    - "C#"
+    - C#
     - Ruby
-    - PHP
-  areas:
-    - Designing and developing scalable products with a focus on high availability, resilience and performance
-    - Empowering other engineers through coaching and mentoring
-    - Designing and running services in a cloud native environment (AWS)
-    - Using CI/CD to confidently deliver changes at a high velocity
-    - Container orchestration platforms (ECS & Kubernetes)
-    - Microservice architecture
+    - PHP & Hack
+
+strengths:
+  - Technical Strategy: Authoring RFCs, defining roadmaps, and cross-team architectural alignment
+  - Distributed Systems: Scaling microservices via Event-Driven Architecture (EDA) & DDD
+  - Platform Engineering: Architecting "Canonical" services and vertical-agnostic data layers
+  - Resilience & Reliability: Global failover strategies, Multi-region AWS, and SLO/SLI definition
+  - Engineering Multiplier: Institutionalizing knowledge-sharing and mentoring high-performing squads
+  - Operational Excellence: Proactive Incident Management (5 Whys/Ishikawa) and high-velocity CI/CD
 
 experience:
   - company: TravelPerk
     location: London
-    role: Senior Software Engineer
-    start: ""
+    role: Technical Lead
+    start: November 2023
     end: Present
     highlights:
-      - TODO
+      - Spearheading the design and strategy for a centralised Locations Service, establishing a vertical-agnostic canonical source for location data across the entire platform.
+      - Leading the architectural roadmap for the Locations Service while delegating implementation workstreams to multiple engineers, ensuring high-quality execution and mentorship.
+      - Coordinated the multi-phase delivery of UK Rail split-ticketing across distributed engineering teams in London and Barcelona, ensuring technical alignment and market competitiveness.
+      - Driving a transition to an Event-Driven Architecture (EDA) across core services to eliminate systemic bottlenecks and decouple services.
+      - Established a recurring technical knowledge-sharing forum and a persistent "Internal Talk Library", reducing onboarding friction and scaling technical context for new joiners.
 
   - company: Meta
     location: London
     role: Senior Software Engineer
     start: August 2021
-    end: Oct 2023
+    end: October 2023
     highlights:
-      - Worked on core infrastructure as part of a new Customer Support organization with the goal of unifying support offerings across different Meta products
-      - Mentored new joiners through their onboarding journey
-      - Lead development of experimentation functionality within support case flow and taxonomy tools
-      - Championed deeper incident reviews within the organization, using tools such as 5 whys and ishikawa
-      - Delivered major improvements to performance of tooling for support agents, leading to a major overall reduction in resolution times when scaled across 10s of thousands of support staff
+      - Engineered core unified infrastructure for a global Customer Support platform, standardizing support flows across the entire Meta product suite.
+      - Optimized support agent tooling performance, achieving a significant reduction in Mean Time to Resolution (MTTR) for a global workforce of 10k+ staff.
+      - Institutionalized rigorous post-incident review processes (Ishikawa, 5 Whys), shifting the organization toward a proactive, "safety-first" engineering culture.
+      - Directed the development of a high-impact experimentation framework for the case-flow routing and support taxonomy toolset.
 
   - company: Skyscanner
     location: Edinburgh
-    role: Senior Software Engineer
+    role: Senior Software Engineer (Platform)
     start: July 2019
     end: July 2021
     highlights:
-      - Joined the Platform tribe and quickly ramped up in a new area of the business and set of technologies
-      - Worked with other senior & principal engineers to design different aspects of Skyscanner's Kubernetes platform, specifically focusing on public ingress
-      - Broke designs down into tasks ready to be picked up by junior engineers in the team
-      - Used 5+ years experience at Skyscanner to mentor junior engineers, sharing personal approach to upskilling in new areas
-      - Developed a prod-like Kubernetes environment using Kind for engineers to develop and test public gateway changes locally
+      - Partnered with Principal Engineers to design and implement Skyscanner’s global Kubernetes ingress and failover strategy, securing high availability for all traveler traffic.
+      - Developed a localized Kubernetes environment (Kind) to shorten the feedback loop for infrastructure engineers, significantly increasing developer velocity.
+      - Decomposed complex architectural designs into execution-ready workstreams for junior and mid-level engineers.
+      - Mentored engineers across the Platform tribe, focusing on cloud-native best practices and scalable system design.
 
   - company: Skyscanner
     location: Edinburgh
@@ -58,14 +81,10 @@ experience:
     start: June 2015
     end: July 2019
     highlights:
-      - Migrated the Price Alerts system from .NET services running in Skyscanner data centres to a cloud native solution in AWS
-      - Ensured minimal traveller impact via "Do no harm" A/B testing
-      - Re-architected the system to improve cost and efficiency in the new environment
-      - Squad lead and subject matter expert on Skyscanner's traveller communication services
-      - Mentored new/junior engineers in the team to share expertise in the area
-      - Provided technical input to leadership during OKR and roadmap planning
-      - Coordinated with other teams in the business to identify areas for collaboration and ensure the right things were being built
-      - Responsible for designing and driving the integration of internal services with a third party marketing automation product
+      - Led the migration of the Price Alerts system from on-prem data centers to AWS, focusing on cost-efficiency, observability, and reliability.
+      - Served as Squad Lead for traveler communication services, providing technical steering for quarterly OKRs and product roadmaps.
+      - Managed the technical integration of internal services with third-party marketing automation platforms at scale.
+      - Utilized A/B testing and "Do No Harm" strategies to ensure zero-downtime migrations for high-traffic systems.
 
   - company: Planys Cloud
     location: Dunfermline
@@ -73,6 +92,5 @@ experience:
     start: June 2013
     end: May 2015
     highlights:
-      - Worked on a variety of projects for multiple clients across different industries
-      - Designed and developed a browser based game engine and web platform which allows users to create and share games as well as remix games created by others
-      - Introduced automated testing in multiple projects to more confidently ship updates for clients
+      - Designed and delivered a proprietary browser-based game engine and community sharing platform.
+      - Championed the adoption of automated testing and CI basics, reducing regression rates for client deliverables.

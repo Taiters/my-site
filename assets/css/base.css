@@ -509,7 +509,6 @@ pre code {
 .cv-about {
   color: var(--text-muted);
   font-size: 1rem;
-  max-width: 560px;
   line-height: 1.6;
   margin: 0 0 0.75rem;
 }
@@ -535,11 +534,24 @@ pre code {
   margin: 0 0 1rem;
 }
 
+.cv-skill-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.cv-skill-category {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin: 0 0 0.5rem;
+}
+
 .cv-chips {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1rem;
 }
 
 .cv-chip {
@@ -554,11 +566,6 @@ pre code {
   color: var(--accent);
 }
 
-.cv-chip--secondary {
-  background: var(--code-bg);
-  color: var(--text-muted);
-}
-
 .cv-areas {
   list-style: none;
   padding: 0;
@@ -571,6 +578,18 @@ pre code {
   color: var(--text);
   line-height: 1.6;
   margin-bottom: 0.3em;
+}
+
+.cv-strength-key {
+  font-family: var(--font-heading);
+  color: var(--accent-warm);
+  font-weight: 600;
+}
+
+.cv-strength-key::after {
+  content: " —";
+  font-weight: 400;
+  color: var(--text-muted);
 }
 
 .cv-areas li::before {
@@ -654,6 +673,10 @@ pre code {
 @media (max-width: 600px) {
   .cv-name {
     font-size: 1.6rem;
+  }
+
+  .cv-skill-grid {
+    grid-template-columns: 1fr;
   }
 
   .cv-entry-header {

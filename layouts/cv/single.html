@@ -17,20 +17,33 @@
   {{/* Skills */}}
   <section class="cv-section">
     <h2 class="cv-section-label">Skills</h2>
-    <div class="cv-chips">
-      {{ range $cv.skills.primary }}
-        <span class="cv-chip cv-chip--primary">{{ . }}</span>
-      {{ end }}
-      {{ range $cv.skills.also }}
-        <span class="cv-chip cv-chip--secondary">{{ . }}</span>
+    <div class="cv-skill-grid">
+      {{ range $category, $items := $cv.skills }}
+      <div class="cv-skill-group">
+        <h3 class="cv-skill-category">{{ $category }}</h3>
+        <div class="cv-chips">
+          {{ range $items }}
+            <span class="cv-chip cv-chip--primary">{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
       {{ end }}
     </div>
+  </section>
+
+  {{/* Strengths */}}
+  {{ with $cv.strengths }}
+  <section class="cv-section">
+    <h2 class="cv-section-label">Strengths</h2>
     <ul class="cv-areas">
-      {{ range $cv.skills.areas }}
-        <li>{{ . }}</li>
+      {{ range . }}
+        {{ range $key, $value := . }}
+          <li><strong class="cv-strength-key">{{ $key }}</strong> {{ $value }}</li>
+        {{ end }}
       {{ end }}
     </ul>
   </section>
+  {{ end }}
 
   {{/* Experience */}}
   <section class="cv-section">
