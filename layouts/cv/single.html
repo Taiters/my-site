@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $cv := .Site.Data.cv }}
+{{ $cv := index .Site.Data (printf "cv.%s" (.Params.cvFlavour | default "senior")) }}
 <article class="cv">
 
   {{/* Header */}}

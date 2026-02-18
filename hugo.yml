@@ -28,9 +28,6 @@ menu:
     - name: Projects
       url: /projects/
       weight: 2
-    - name: CV
-      url: /cv/
-      weight: 3
 
 markup:
   highlight:

@@ -1,0 +1,91 @@
+name: Daniel Tait
+title: Lead / Senior Software Engineer | Platform & Distributed Systems
+about: >
+  High-impact Technical Lead with 10+ years of experience building and scaling 
+  resilient distributed systems. Expert in architecting high-availability infrastructure 
+  at Meta and Skyscanner, with a focus on Python, Go, and AWS. Proven track record of 
+  bridging complex system design with rapid product delivery, leading high-performing 
+  squads, and mentoring engineers to maintain elite technical standards.
+
+skills:
+  Core Ecosystems:
+    - Python
+    - JavaScript / TypeScript
+    - Go
+  Distributed Systems:
+    - DynamoDB
+    - SQS / SNS
+    - PostgreSQL
+    - Redis
+  Cloud & Infrastructure:
+    - AWS (Multi-region)
+    - Kubernetes & ECS
+    - Terraform & Ansible
+    - Docker
+  Observability & Ops:
+    - Datadog & Prometheus
+    - CI/CD (GitHub Actions, CircleCI)
+    - Incident Management (5 Whys)
+
+strengths:
+  - System Design: Architecting scalable microservices via Event-Driven Architecture (EDA)
+  - Platform Engineering: Building developer-first tooling and vertical-agnostic data layers
+  - Squad Leadership: Translating complex roadmaps into execution-ready technical workstreams
+  - Resilience: Implementing global failover, SLO/SLIs, and high-uptime cloud infrastructure
+  - Performance Tuning: Optimizing distributed systems to reduce latency and MTTR
+  - Mentorship: Leveling up teams through rigorous code reviews and knowledge sharing
+
+experience:
+  - company: TravelPerk
+    location: London
+    role: Technical Lead
+    start: November 2023
+    end: Present
+    highlights:
+      - Spearheading the design and strategy for a centralised Locations Service, establishing a vertical-agnostic canonical source for location data across the entire platform.
+      - Leading the architectural roadmap for the Locations Service while delegating implementation workstreams to multiple engineers, ensuring high-quality execution and mentorship.
+      - Coordinated the multi-phase delivery of UK Rail split-ticketing across distributed engineering teams in London and Barcelona, ensuring technical alignment and market competitiveness.
+      - Driving a transition to an Event-Driven Architecture (EDA) across core services to eliminate systemic bottlenecks and decouple services.
+      - Established a recurring technical knowledge-sharing forum and a persistent "Internal Talk Library", reducing onboarding friction and scaling technical context for new joiners.
+
+  - company: Meta
+    location: London
+    role: Senior Software Engineer
+    start: August 2021
+    end: October 2023
+    highlights:
+      - Engineered core unified infrastructure for a global Customer Support platform, standardizing support flows across the entire Meta product suite.
+      - Optimized support agent tooling performance, achieving a significant reduction in Mean Time to Resolution (MTTR) for a global workforce of 10k+ staff.
+      - Institutionalized rigorous post-incident review processes (Ishikawa, 5 Whys), shifting the organization toward a proactive, "safety-first" engineering culture.
+      - Directed the development of a high-impact experimentation framework for the case-flow routing and support taxonomy toolset.
+
+  - company: Skyscanner
+    location: Edinburgh
+    role: Senior Software Engineer (Platform)
+    start: July 2019
+    end: July 2021
+    highlights:
+      - Partnered with Principal Engineers to design and implement Skyscanner’s global Kubernetes ingress and failover strategy, securing high availability for all traveler traffic.
+      - Developed a localized Kubernetes environment (Kind) to shorten the feedback loop for infrastructure engineers, significantly increasing developer velocity.
+      - Decomposed complex architectural designs into execution-ready workstreams for junior and mid-level engineers.
+      - Mentored engineers across the Platform tribe, focusing on cloud-native best practices and scalable system design.
+
+  - company: Skyscanner
+    location: Edinburgh
+    role: Software Engineer
+    start: June 2015
+    end: July 2019
+    highlights:
+      - Led the migration of the Price Alerts system from on-prem data centers to AWS, focusing on cost-efficiency, observability, and reliability.
+      - Served as Squad Lead for traveler communication services, providing technical steering for quarterly OKRs and product roadmaps.
+      - Managed the technical integration of internal services with third-party marketing automation platforms at scale.
+      - Utilized A/B testing and "Do No Harm" strategies to ensure zero-downtime migrations for high-traffic systems.
+
+  - company: Planys Cloud
+    location: Dunfermline
+    role: Software Developer
+    start: June 2013
+    end: May 2015
+    highlights:
+      - Designed and delivered a proprietary browser-based game engine and community sharing platform.
+      - Championed the adoption of automated testing and CI basics, reducing regression rates for client deliverables.
