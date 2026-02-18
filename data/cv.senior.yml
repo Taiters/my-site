@@ -1,39 +1,44 @@
 name: Daniel Tait
-title: Lead / Senior Software Engineer | Platform & Distributed Systems
+title: Senior Software Engineer | Platform & Distributed Systems
+
 about: >
-  High-impact Technical Lead with 10+ years of experience building and scaling 
-  resilient distributed systems. Expert in architecting high-availability infrastructure 
-  at Meta and Skyscanner, with a focus on Python, Go, and AWS. Proven track record of 
-  bridging complex system design with rapid product delivery, leading high-performing 
-  squads, and mentoring engineers to maintain elite technical standards.
+  Senior Software Engineer with 10+ years of experience building and scaling
+  resilient distributed systems across high-traffic platforms. Experienced in
+  Python, Go, and AWS, with a focus on reliability, performance, and developer
+  enablement. Strong track record of delivering production-grade infrastructure,
+  improving system resilience, and mentoring engineers through complex technical
+  initiatives.
 
 skills:
   Core Ecosystems:
     - Python
-    - JavaScript / TypeScript
     - Go
+    - JavaScript / TypeScript
   Distributed Systems:
+    - Event-Driven Architecture (EDA)
     - DynamoDB
-    - SQS / SNS
     - PostgreSQL
     - Redis
+    - SQS / SNS
   Cloud & Infrastructure:
-    - AWS (Multi-region)
-    - Kubernetes & ECS
-    - Terraform & Ansible
+    - AWS (multi-region, high-availability)
+    - Kubernetes (EKS, Kind)
+    - ECS
+    - Terraform
     - Docker
-  Observability & Ops:
-    - Datadog & Prometheus
+  Observability & Delivery:
+    - Datadog
+    - Prometheus
     - CI/CD (GitHub Actions, CircleCI)
-    - Incident Management (5 Whys)
+    - Incident Review (5 Whys, Ishikawa)
 
 strengths:
-  - System Design: Architecting scalable microservices via Event-Driven Architecture (EDA)
-  - Platform Engineering: Building developer-first tooling and vertical-agnostic data layers
-  - Squad Leadership: Translating complex roadmaps into execution-ready technical workstreams
-  - Resilience: Implementing global failover, SLO/SLIs, and high-uptime cloud infrastructure
-  - Performance Tuning: Optimizing distributed systems to reduce latency and MTTR
-  - Mentorship: Leveling up teams through rigorous code reviews and knowledge sharing
+  - System Design: Designing and implementing event-driven microservices with clear service boundaries and fault isolation
+  - Platform Engineering: Building internal tooling and shared services to improve developer velocity and system consistency
+  - Reliability Engineering: Implementing SLO/SLIs, failover strategies, and observability for high-uptime systems
+  - Performance Optimization: Reducing latency, improving throughput, and minimizing MTTR in distributed systems
+  - Technical Leadership: Breaking down complex designs into executable work and guiding engineers through delivery
+  - Mentorship: Elevating engineering standards through code reviews and knowledge sharing
 
 experience:
   - company: TravelPerk
@@ -42,11 +47,11 @@ experience:
     start: November 2023
     end: Present
     highlights:
-      - Spearheading the design and strategy for a centralised Locations Service, establishing a vertical-agnostic canonical source for location data across the entire platform.
-      - Leading the architectural roadmap for the Locations Service while delegating implementation workstreams to multiple engineers, ensuring high-quality execution and mentorship.
-      - Coordinated the multi-phase delivery of UK Rail split-ticketing across distributed engineering teams in London and Barcelona, ensuring technical alignment and market competitiveness.
-      - Driving a transition to an Event-Driven Architecture (EDA) across core services to eliminate systemic bottlenecks and decouple services.
-      - Established a recurring technical knowledge-sharing forum and a persistent "Internal Talk Library", reducing onboarding friction and scaling technical context for new joiners.
+      - Designed and implemented a centralized Locations Service, establishing a canonical source of truth for location data across multiple product domains.
+      - Led the technical implementation roadmap for the service, defining architecture and delegating execution across engineers while maintaining code-level involvement.
+      - Coordinated delivery of UK Rail split-ticketing functionality across distributed teams, aligning backend architecture with product and commercial goals.
+      - Migrated core services toward an event-driven architecture to reduce synchronous coupling and improve deployment independence.
+      - Established a recurring internal technical forum and documentation library to improve onboarding speed and knowledge retention.
 
   - company: Meta
     location: London
@@ -54,10 +59,10 @@ experience:
     start: August 2021
     end: October 2023
     highlights:
-      - Engineered core unified infrastructure for a global Customer Support platform, standardizing support flows across the entire Meta product suite.
-      - Optimized support agent tooling performance, achieving a significant reduction in Mean Time to Resolution (MTTR) for a global workforce of 10k+ staff.
-      - Institutionalized rigorous post-incident review processes (Ishikawa, 5 Whys), shifting the organization toward a proactive, "safety-first" engineering culture.
-      - Directed the development of a high-impact experimentation framework for the case-flow routing and support taxonomy toolset.
+      - Built unified infrastructure components for a global Customer Support platform serving 10k+ internal support agents.
+      - Improved support tooling performance, reducing Mean Time to Resolution (MTTR) through backend optimization and workflow redesign.
+      - Implemented structured post-incident review processes (5 Whys, Ishikawa), improving root-cause clarity and reducing repeat incident patterns.
+      - Developed an experimentation framework for case-routing and taxonomy systems, enabling controlled rollout of support flow changes.
 
   - company: Skyscanner
     location: Edinburgh
@@ -65,10 +70,10 @@ experience:
     start: July 2019
     end: July 2021
     highlights:
-      - Partnered with Principal Engineers to design and implement Skyscanner’s global Kubernetes ingress and failover strategy, securing high availability for all traveler traffic.
-      - Developed a localized Kubernetes environment (Kind) to shorten the feedback loop for infrastructure engineers, significantly increasing developer velocity.
-      - Decomposed complex architectural designs into execution-ready workstreams for junior and mid-level engineers.
-      - Mentored engineers across the Platform tribe, focusing on cloud-native best practices and scalable system design.
+      - Designed and implemented global Kubernetes ingress and failover strategy in collaboration with Principal Engineers, supporting high-availability traffic routing.
+      - Built a localized Kubernetes development environment (Kind) to shorten infrastructure feedback loops and improve developer productivity.
+      - Translated high-level architectural proposals into structured implementation plans for junior and mid-level engineers.
+      - Mentored engineers on cloud-native patterns, infrastructure-as-code, and scalable service design.
 
   - company: Skyscanner
     location: Edinburgh
@@ -76,10 +81,10 @@ experience:
     start: June 2015
     end: July 2019
     highlights:
-      - Led the migration of the Price Alerts system from on-prem data centers to AWS, focusing on cost-efficiency, observability, and reliability.
-      - Served as Squad Lead for traveler communication services, providing technical steering for quarterly OKRs and product roadmaps.
-      - Managed the technical integration of internal services with third-party marketing automation platforms at scale.
-      - Utilized A/B testing and "Do No Harm" strategies to ensure zero-downtime migrations for high-traffic systems.
+      - Led migration of the Price Alerts system from on-prem infrastructure to AWS, improving observability, cost control, and operational resilience.
+      - Served as technical lead for traveler communication services, aligning engineering execution with quarterly OKRs.
+      - Integrated internal systems with third-party marketing automation platforms at production scale.
+      - Applied A/B testing and phased rollout strategies to ensure zero-downtime migrations for high-traffic services.
 
   - company: Planys Cloud
     location: Dunfermline
@@ -87,5 +92,5 @@ experience:
     start: June 2013
     end: May 2015
     highlights:
-      - Designed and delivered a proprietary browser-based game engine and community sharing platform.
-      - Championed the adoption of automated testing and CI basics, reducing regression rates for client deliverables.
+      - Designed and delivered a browser-based game engine and community platform.
+      - Introduced automated testing and CI practices, reducing regression issues in client-facing deliverables.
