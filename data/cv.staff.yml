@@ -82,7 +82,7 @@ experience:
     highlights:
       - Architected shared infrastructure for a global Customer Support platform serving 10k+ internal agents across multiple Meta products.
       - Standardized support flow architecture across product verticals, reducing fragmentation and improving maintainability.
-      - Improved MTTR across the support tooling ecosystem by <add metric> through systemic backend performance improvements and workflow redesign.
+      - Improved MTTR across the support tooling ecosystem through systemic backend performance improvements and workflow redesign.
       - Institutionalized structured post-incident review practices, improving cross-team learning loops and reducing repeat failure patterns.
       - Led development of an experimentation framework for case-routing systems, enabling safe, iterative evolution of core support logic.
 
