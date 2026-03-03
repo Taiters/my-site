@@ -7,9 +7,12 @@
     <h1 class="cv-name">{{ $cv.name }}</h1>
     <p class="cv-title">{{ $cv.title }}</p>
     <p class="cv-about">{{ $cv.about }}</p>
-    <div class="social-links">
-      {{ range .Site.Params.socialIcons }}
-      <a href="{{ .url }}" class="{{ .classNames }}" target="_blank" rel="noopener noreferrer">{{ partial "social-icons.html" . }}</a>
+    <div class="cv-contact">
+      {{ range $cv.contact }}
+      <a href="{{ .url }}" class="cv-contact-link" target="_blank" rel="noopener noreferrer">
+        {{ partial "social-icons.html" . }}
+        <span>{{ .label }}</span>
+      </a>
       {{ end }}
     </div>
   </header>

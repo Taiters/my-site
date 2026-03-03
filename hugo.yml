@@ -7,18 +7,10 @@ params:
   bio: "Software engineer in London. I like building things — games, tools, and the occasional interactive experiment."
 
   socialIcons:
-    - name: home
-      classNames: "print-only"
-      url: https://dotslashdan.com
     - name: github
-      classNames: ""
       url: https://github.com/Taiters
     - name: linkedin
-      classNames: ""
       url: https://www.linkedin.com/in/dantaiters/
-    - name: mastodon
-      classNames: no-print
-      url: https://mastodon.social/@Taiters
 
 menu:
   main:

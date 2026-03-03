@@ -1,6 +1,20 @@
 name: Daniel Tait
 title: Senior Software Engineer | Platform & Distributed Systems
 
+contact:
+  - name: email
+    url: mailto:dantait91@gmail.com
+    label: dantait91@gmail.com
+  - name: github
+    url: https://github.com/Taiters
+    label: github.com/Taiters
+  - name: linkedin
+    url: https://www.linkedin.com/in/dantaiters/
+    label: linkedin.com/in/dantaiters
+  - name: home
+    url: https://dotslashdan.com
+    label: dotslashdan.com
+
 about: >
   Senior Software Engineer with 10+ years of experience building and scaling
   resilient distributed systems across high-traffic platforms. Experienced in
